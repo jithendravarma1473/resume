@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>date and time</h1>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <p id="demo5"></p>
+        <script>
+            const d=new Date();
+            const d1=new Date(2022, 4);
+            var today=new Date();
+            var h=today.getHours();
+            var m=today.getMinutes();
+            var s=today.getSeconds();
+            document.getElementById("demo1").innerHTML=h+":"+m+":"+s;
+            document.getElementById("demo2").innerHTML=d;
+            document.getElementById("demo3").innerHTML=d1;
+        </script>
+    </body>
+</html>
